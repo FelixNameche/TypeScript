@@ -13,7 +13,7 @@ TypeScript est un surensemble de JavaScript ainsi qu'un compilateur.
 
 À mis chemin entre un langage et un outils.
 
-TS utilise sa propre syntaxe (comme un langage basé sur JS) et proche de celle de Java sans pour autant trop s'éloigné de JS. Il ne requiert pas de bibliothèque comme les autres langages découlant de JS, il a juste besoin de NodeJS pour fonctionner. Et finalement, une fois le développement terminer TS n'a plus d'intérêt (le côté outils).
+TS utilise sa propre syntaxe (comme un langage basé sur JS) et proche de celle de Java sans pour autant trop s'éloigné de JS. Il a juste besoin de NodeJS pour fonctionner. Et finalement, une fois le développement terminer TS n'a plus d'intérêt (le côté outils).
 
 L'intérêt avec TS c'est de pouvoir utiliser plus aisément certaines choses que JS permet, mais de façon complexe, j'y reviendrais plus tard. Un autre avantage de TS c'est la sécurité lors du développement. Pour l'exemple, il permet de préciser ce qui sera placer dans une variable (bien qu'optionnel) afin que par après, si on tente d'y mettre un autre type de donnée, TS nous avertis par une erreur.
 
