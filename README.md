@@ -15,7 +15,7 @@ TypeScript est un surensemble de JavaScript ainsi qu'un compilateur.
 
 TS utilise sa propre syntaxe (comme un langage basé sur JS) et proche de celle de Java sans pour autant trop s'éloigné de JS. Il a juste besoin de NodeJS pour fonctionner. Et finalement, une fois le développement terminer TS n'a plus d'intérêt (le côté outils).
 
-L'intérêt avec TS c'est de pouvoir utiliser plus aisément certaines choses que JS permet, mais de façon complexe, j'y reviendrais plus tard. Un autre avantage de TS c'est la sécurité lors du développement. Pour l'exemple, il permet de préciser ce qui sera placer dans une variable (bien qu'optionnel) afin que par après, si on tente d'y mettre un autre type de donnée, TS nous avertis par une erreur.
+L'intérêt avec TS c'est de pouvoir utiliser plus aisément certaines choses que JS permet, mais de façon complexe, j'y reviendrais plus tard. Un autre avantage de TS c'est la sécurité lors du développement. Pour l'exemple, il permet de préciser ce qui sera placer dans une variable (bien qu'optionnel, il est plus sémantique de le faire) afin que par après, si on tente d'y mettre un autre type de donnée, TS nous avertis par une erreur.
 
 ### Quels sont les avantages ?
 
@@ -91,7 +91,7 @@ console.log(test);
 
 Hmmm, pas très convainquant ... Nous avons écrit plus de ligne pour pas grand chose ... Et aussi pourquoi le "let" est devenu "var" ?
 
-Hé bien même si le code est plus long, ça permet d'éviter les bugs et rend le débogage plus simple, de plus si vous préférer ne pas déclarer le type de la variable, vous n'êtes pas obligé TS sais le faire tout seul comme un grand. Mais c'est plus sémantique de le faire. Ensuite pour le let, il ne faut pas oublier que par exemple si un "let" est déclaré dans un "if" il ne pourra pas être appelé en dehors, quant au "var" cela dépendra de la situation. S'il est déclarer dans une fonction, il pourra être appelé dans n'importe qu'elle fonction, mais pas ailleurs, tandis que s'il est déclarer en dehors alors sa portée sera globale.
+Hé bien même si le code est plus long, ça permet d'éviter les bugs et rend le débogage plus simple. Ensuite pour le let, il ne faut pas oublier que par exemple si un "let" est déclaré dans un "if" il ne pourra pas être appelé en dehors, quant au "var" cela dépendra de la situation. S'il est déclarer dans une fonction, il pourra être appelé dans n'importe qu'elle fonction, mais pas ailleurs, tandis que s'il est déclarer en dehors alors sa portée sera globale.
 
 ### Le type any
 Celui-ci permet de faire comprendre à TS que la variable peux accueillir n'importe quoi.
