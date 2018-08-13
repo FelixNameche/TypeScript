@@ -97,10 +97,10 @@ Hmmm, pas très convainquant ... Nous avons écrit plus de ligne pour pas grand 
 
 Hé bien même si le code est plus long, ça permet d'éviter les bugs et rend le débogage plus simple, de plus si vous préférer ne pas déclarer le type de la variable, vous n'êtes pas obligé TS sais le faire tout seul comme un grand. Mais c'est plus sémantique de le faire. Ensuite pour le let, il ne faut pas oublier que par exemple si un "let" est déclaré dans un "if" il ne pourra pas être appelé en dehors, quant au "var" cela dépendra de la situation. S'il est déclarer dans une fonction, il pourra être appelé dans n'importe qu'elle fonction, mais pas ailleurs, tandis que s'il est déclarer en dehors alors sa portée sera globale.
 
-# Le type any
+### Le type any
 Celui-ci permet de faire comprendre à TS que la variable peux accueillir n'importe quoi.
 
-# Le type array
+### Le type array
 
 Alors, si TS détecte si un type n'est pas correcte, comment faire dans le cas d'un array avec plusieurs type dedans ?
 
@@ -116,7 +116,7 @@ Et voila un array uniquement composer de caractères et de nombre. Si vous dési
 let array: number[] = ['24', '25', '26'];
 ```
 
-# Le type tuple
+### Le type tuple
 
 ```
 let tuple: [string, number] = ['Brandon', 10];
@@ -124,7 +124,7 @@ let tuple: [string, number] = ['Brandon', 10];
 
 Ceci permet de créer une liste où le premier élément doit obligatoirement être une chaine de caractère et le second éléments être un number sous peine d'avoir une erreur.
 
-# Le type classe
+### Le type classe
 
 La nous allons entré dans la programmation orienté objet (celle proche de Java).
 
