@@ -131,7 +131,6 @@ class Utilisateur {
   age:number;
   ville?:string;
   pays="Belgique";
-  ...hobbies;
   
   constructor(nom: string, email: string, age: number) {
     this.nom = nom;
